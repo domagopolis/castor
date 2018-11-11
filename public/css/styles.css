@@ -1,0 +1,57 @@
+html{ font-size: 90%; background: #184a69 url(../images/blue_gradient.png) 0 0 repeat-x; color: white; }
+body{ margin: 0; margin-top: 100px; }
+h1{ margin: 0; font-size: 500%; text-align: left; }
+h2{ margin: 0; font-size: 200%; font-weight: bold; text-indent: 30px; }
+#header h1 a{ color: #c7d3db; text-decoration: none; }
+form ul{ margin: 0; padding: 0; display: inline; float: left; width: 400px; }
+form ul li{ list-style-type: none; }
+a:link, a:active, a:visited{ color: #fa27cb; }
+a.button, button, input, select, textarea, label{ border: 1px solid #20809d; padding: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; text-decoration: none; margin-top: 10px; cursor: pointer; overflow:visible; background: white; }
+label{ margin: 9px 5px 0 0; float: left; width: 140px; min-height: 15px; text-align: left; color: #184a69; }
+input{ width: 210px; height: 18px; text-align: left; }
+select{ width: 222px; height: 28px; text-align: left; }
+input.file{ width: 210px; height: 30px; text-align: left; }
+select.multiple{ width: 210px; height: 90px; text-align: left; }
+textarea{ width: 210px; height: 100px; }
+button{ background: #fa27cb url('/media/img/buttons/magenta.png') 0px -10px repeat-x; border: 1px solid #20809d; color: white; }
+label.blue{ border: 1px solid #20809d; background: #8ed1fa url('/media/img/buttons/blue.png') 0px -10px repeat-x; color: white; }
+a.magenta{ background: #fa27cb url('/media/img/buttons/magenta.png') 0px -10px repeat-x; border: 1px solid #20809d; color: white; }
+a.magenta.left{ margin-right: 50px; }
+a.magenta.right{ margin-left: 50px; }
+#header{ padding-left: 40px; background: white; }
+#content{ padding: 100px 0 0 40px; width: 1000px; }
+#content ul{ margin: 0; padding: 0; list-style-type: none; display: inline; float: left; width: 500px; }
+#first-column{ float:left; display: inline; width:500px; }
+#second-column{ float:left; display: inline; width:500px; }
+#full-width{ float:left; display: inline; width:1000px; }
+#navigation ul{ margin: 0; padding: 0; display: inline; float: left; width: 490px; }
+#navigation ul li{ list-style-type: none; margin: 0 0 66px 0; height: 46px; width: 353px; }
+#navigation ul #right-aligned{ padding-right: 50px; float: right; }
+#navigation ul #left-aligned{ float: left; }
+#navigation ul li a{ margin: 0; padding-top: 20px; font-size: 200%; font-weight: bold; text-decoration: none; display: block; height: 46px; background: white; -webkit-border-radius: 12px; -moz-border-radius: 12px; text-align: center; }
+#nav-calendar{ position:absolute; left:60px; top:230px; }
+#nav-trade{ position:absolute; left:320px; top:360px; }
+#nav-address-book{ position:absolute; left:60px; top:475px; }
+#schedule ul{ margin: 0 0 20px 0; padding: 0; display: inline; float: left; width: 490px; font-weight: bold; text-indent: 30px; }
+#schedule ul .header{ display: block; height: 35px; background: #6d8da0; font-size: 200%; }
+#schedule ul .odd{ display: block; min-height: 35px; background: #7996a8; font-size: 150%; }
+#schedule ul .even{ display: block; min-height: 35px; background: #4f758d; font-size: 150%; }
+#schedule ul .footer{ display: block; height: 35px; background: #6d8da0; font-size: 150%; }
+#schedule ul .footer a{ text-decoration: none; color: #184a69; }
+#selections ul{ margin: 0; padding: 0; display: inline; float: left; width: 490px; }
+#selections ul li a{ margin: 0; padding-top: 20px; font-size: 180%; font-weight: bold; text-decoration: none; display: block; height: 46px; background: white; -webkit-border-radius: 12px; -moz-border-radius: 12px; text-align: center; }
+table.datagrid-table{ float: left; width: 1000px; margin-bottom: 30px; border-color: #20809d; border-width: 2px; border-style: solid; border-collapse: collapse; }
+table.datagrid-table tr:nth-child(odd){ background: #7b97a9; }
+table.datagrid-table tr:nth-child(even){ background: #4d748c; }
+table.datagrid-table th, table.datagrid-table TD{ border-color: #20809d; border-width: 2px; border-style: solid; }
+table.datagrid-table form{ width: 100%; }
+table.datagrid-table input{ width: auto; }
+table.calendar { margin: 0 auto; }
+table.calendar tr{ height: 50px; }
+table.calendar tr td.event{ background: #4d748c; }
+table.calendar tr td.today{ background: #7b97a9; }
+img.float-left{ float: left; margin: 4px; }
+p.login{ width: 220px; height: 100px; }
+.ac_results{ color: black; }
+.error, .notice, .success { padding:.8em; margin-bottom:1.6em; border:2px solid #ddd; }
+.error { background:#FBE3E4; color:#8a1f11; border-color:#FBC2C4; }
